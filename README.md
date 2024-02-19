@@ -33,4 +33,4 @@ open CardiovascularDiseaseClassification.ipynb
 
 ## Contribuições
 
-Contribuições são sempre bem-vindas! Se você tem uma sugestão para melhora, por favor entre em contato
+Contribuições são sempre bem-vindas! Se você tem uma sugestão para melhoria do projeto, por favor entre em contato
