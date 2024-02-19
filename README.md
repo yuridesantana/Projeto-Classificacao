@@ -1,4 +1,4 @@
-# Projeto-Classificacao
+# Projeto-Classificação
  Projeto de Classificação na área da Saúde
  
 O objetivo principal deste projeto é prever a presença ou ausência de doença cardiovascular com base em diversas variáveis do paciente.
