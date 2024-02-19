@@ -3,40 +3,34 @@
  
 O objetivo principal deste projeto é prever a presença ou ausência de doença cardiovascular com base em diversas variáveis do paciente.
 
-Dicionário dos dados:
+## Tecnologia utilizada
+- **Python**
 
-ID: identificador de cada paciente.
+## Funcionalidades
+ - Análise descritiva dos dados;
+ - Previsão de possível doença cardiovascular;
+ - Comparação de diferentes modelos de previsão e seleção do modelo mais apropriado.
 
-age: Idade do paciente em dias.
+## Configuração e Execução
 
-age_years: Idade do paciente em anos
+### Pré-Requisitos
 
-gender: sexo do paciente. Variável categórica (1: Feminino, 2: Masculino).
+- Jupyter Notebook
 
-height: Altura do paciente em centímetros.
+### Instalação
 
-weight: Peso do paciente em quilogramas.
+1. Clone o repositório para a sua máquina local:
 
-ap_hi: Pressão arterial sistólica.
+git clone https://github.com/yuridesantana/Projeto-Classificacao.git
 
-ap_lo: Pressão arterial diastólica.
+2. Navegue até o projeto:
 
-cholesterol: Níveis de colesterol. Variável categórica (1: Normal, 2: Acima da Média, 3: Bem Acima da Média).
+cd Projeto-Classificacao
 
-gluc: Níveis de glicose. Variável categórica (1: Normal, 2: Acima da Média, 3: Bem Acima da Média).
+3. Abra o Jupyter Notebook
 
-smoke: Perfil dos participantes quanto ao fumo. Variável binária (0: Não fumante, 1: Fumante).
+open CardiovascularDiseaseClassification.ipynb
 
-alco: Perfil dos participantes quanto ao álcool. Variável binária (0: Não consome álcool, 1: Consome álcool).
+## Contribuições
 
-active: Perfil dos participantes quanto à atividade física. Variável binária (0: Não fisicamente ativo, 1: Fisicamente ativo).
-
-cardio: Presença ou ausência de doença cardiovascular. Variável de destino. Binário (0: Ausência, 1: Presença).
-
-bmi: Índice de Massa Corporal (IMC), derivado do peso e altura.
-
-bp_category: Categoria de pressão arterial baseada em ap_hi e ap_lo. As categorias incluem "Normal", "Elevado", "Estágio de Hipertensão 1", "Estágio de Hipertensão 2" e "Crise Hipertensiva".
-
-bp_category_encoded: forma codificada de bp_category para fins de aprendizado de máquina.
-
-Referência: O banco de dados foi coletado a partir de: https://www.kaggle.com/datasets/colewelkins/cardiovascular-disease
+Contribuições são sempre bem-vindas! Se você tem uma sugestão para melhora, por favor entre em contato
